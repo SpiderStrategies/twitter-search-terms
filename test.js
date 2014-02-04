@@ -35,4 +35,8 @@ describe('Twitter search terms', function () {
       'test_with_many' ])
   })
 
+  it('hashtags', function () {
+    var results = terms('What Events Should Go In An Automotive... http://j.mp/1cHn7qJ #AutomotiveIceClimb #AutomotiveWinterOlympics #NorthernHemisphere #TopGear')
+    assert.equal(results.length, 22)
+  })
 })

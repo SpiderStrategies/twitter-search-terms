@@ -16,8 +16,8 @@ function getUrl (u) {
     host = '…' + host.substring(host.length - maxHost + 1)
   }
 
-  return parsed.path.length > maxPath ? host + parsed.path.substring(0, maxPath - 1) + '…'
-                                      : host + path
+  return parsed.path.length > maxPath ? (host + parsed.path.substring(0, maxPath - 1) + '…')
+                                      : (host + parsed.path)
 }
 
 module.exports = function (text) {
