@@ -1,0 +1,31 @@
+{
+  "name": "twitter-search-terms",
+  "version": "1.0.0",
+  "description": "Extract twitter search terms",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha -R spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SpiderStrategies/twitter-search-terms"
+  },
+  "keywords": [
+    "twitter",
+    "search",
+    "twitter-text"
+  ],
+  "author": "Nathan Bowser <nathan.bowser@spiderstrategies.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpiderStrategies/twitter-search-terms/issues"
+  },
+  "homepage": "https://github.com/SpiderStrategies/twitter-search-terms",
+  "dependencies": {
+    "twitter-text": "~1.7.0",
+    "lodash.uniq": "~2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1"
+  }
+}
